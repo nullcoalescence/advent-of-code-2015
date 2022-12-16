@@ -24,6 +24,7 @@ namespace advent_of_code_2015
                 if (IsUserInputValid(arg))
                 {                 
                     RunDay(int.Parse(arg));
+                    Environment.Exit(1);
                 }
                 else
                 {
@@ -32,6 +33,7 @@ namespace advent_of_code_2015
             }
 
             RunDay(PromptForDayAndValidate());
+            Environment.Exit(1);
         }
 
         private static bool IsUserInputValid(string input)
