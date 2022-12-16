@@ -5,7 +5,6 @@
         public void Run()
         {
             var fileContent = File.ReadAllText(@"Input/day_1.txt");
-
             var contents = fileContent.ToCharArray();
 
             int floor = 0;
@@ -31,8 +30,6 @@
                 {
                     basementIndex = i + 1;
                 }
-
-                
             }
 
             Console.WriteLine($"Part 1: End floor: {floor}");
