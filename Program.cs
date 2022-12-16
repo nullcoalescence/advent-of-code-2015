@@ -84,6 +84,7 @@ namespace advent_of_code_2015
             switch (day)
             {
                 case 1: new Day1().Run(); break;
+                case 2: new Day2().Run(); break;
                 default: Console.WriteLine("Invalid day."); break;
             }
         }

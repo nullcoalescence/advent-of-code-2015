@@ -1,8 +1,7 @@
 {
   "profiles": {
     "advent-of-code-2015": {
-      "commandName": "Project",
-      "commandLineArgs": "1"
+      "commandName": "Project"
     }
   }
 }
