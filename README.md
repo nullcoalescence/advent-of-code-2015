@@ -1,6 +1,6 @@
 # advent-of-code-2015
 
-Going back and doing all the advent of codes in my spare time. Only a few years late on this one...
+Only a few years late getting to this 
 
 # Build
 ```
